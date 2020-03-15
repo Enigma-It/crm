@@ -1,0 +1,2 @@
+initSW();
+initPush();

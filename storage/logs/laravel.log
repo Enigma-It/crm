@@ -1,0 +1,96 @@
+[2019-12-01 08:29:27] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:167)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(101): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(89): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(490): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 D:\\xampp\\htdocs\\probecrmMixed\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 D:\\xampp\\htdocs\\probecrmMixed\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 D:\\xampp\\htdocs\\probecrmMixed\\index.php(21): require_once('D:\\\\xampp\\\\htdocs...')
+#9 {main}
+"} 
+[2019-12-01 08:29:27] laravel.ERROR: syntax error, unexpected 'App' (T_STRING), expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'App' (T_STRING), expecting ']' at D:\\xampp\\htdocs\\probecrmMixed\\config\\app.php:173)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(204): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 D:\\xampp\\htdocs\\probecrmMixed\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 D:\\xampp\\htdocs\\probecrmMixed\\index.php(21): require_once('D:\\\\xampp\\\\htdocs...')
+#7 {main}
+"} 
+[2019-12-01 08:29:32] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:167)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(101): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(89): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(490): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 D:\\xampp\\htdocs\\probecrmMixed\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 D:\\xampp\\htdocs\\probecrmMixed\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 D:\\xampp\\htdocs\\probecrmMixed\\index.php(21): require_once('D:\\\\xampp\\\\htdocs...')
+#9 {main}
+"} 
+[2019-12-01 08:29:32] laravel.ERROR: syntax error, unexpected 'App' (T_STRING), expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'App' (T_STRING), expecting ']' at D:\\xampp\\htdocs\\probecrmMixed\\config\\app.php:173)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(204): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 D:\\xampp\\htdocs\\probecrmMixed\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 D:\\xampp\\htdocs\\probecrmMixed\\index.php(21): require_once('D:\\\\xampp\\\\htdocs...')
+#7 {main}
+"} 
+[2019-12-01 08:29:43] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:167)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(101): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(89): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(490): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 D:\\xampp\\htdocs\\probecrmMixed\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 D:\\xampp\\htdocs\\probecrmMixed\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 D:\\xampp\\htdocs\\probecrmMixed\\index.php(21): require_once('D:\\\\xampp\\\\htdocs...')
+#9 {main}
+"} 
+[2019-12-01 08:29:43] laravel.ERROR: syntax error, unexpected 'App' (T_STRING), expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'App' (T_STRING), expecting ']' at D:\\xampp\\htdocs\\probecrmMixed\\config\\app.php:173)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(204): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 D:\\xampp\\htdocs\\probecrmMixed\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 D:\\xampp\\htdocs\\probecrmMixed\\index.php(21): require_once('D:\\\\xampp\\\\htdocs...')
+#7 {main}
+"} 
+[2019-12-01 08:29:48] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:167)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(101): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(89): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(490): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 D:\\xampp\\htdocs\\probecrmMixed\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 D:\\xampp\\htdocs\\probecrmMixed\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 D:\\xampp\\htdocs\\probecrmMixed\\index.php(21): require_once('D:\\\\xampp\\\\htdocs...')
+#9 {main}
+"} 
+[2019-12-01 08:29:48] laravel.ERROR: syntax error, unexpected 'App' (T_STRING), expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'App' (T_STRING), expecting ']' at D:\\xampp\\htdocs\\probecrmMixed\\config\\app.php:173)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(204): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 D:\\xampp\\htdocs\\probecrmMixed\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 D:\\xampp\\htdocs\\probecrmMixed\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 D:\\xampp\\htdocs\\probecrmMixed\\index.php(21): require_once('D:\\\\xampp\\\\htdocs...')
+#7 {main}
+"} 
